@@ -8,13 +8,9 @@ const initialData = {
     nodes: [
         { id: 'A', name: 'Nó A' },
         { id: 'B', name: 'Nó B' },
-        { id: 'C', name: 'Nó C' },
-        { id: 'D', name: 'Nó D' },
     ],
     links: [
         { source: 'A', target: 'B', weight: 5 },
-        { source: 'A', target: 'C', weight: 3 },
-        { source: 'B', target: 'D', weight: 2 },
     ],
 };
 
